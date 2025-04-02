@@ -1,0 +1,65 @@
+[project]
+name = "langchain_bookbot"
+version = "0.1.0"
+description = "A semantic book recommendation system powered by LangChain, OpenAI, and Gradio."
+authors = [{ name = "Deenu Gengiti", email = "deenuy@gmail.com" }]
+readme = "README.md"
+requires-python = ">=3.10"
+
+dependencies = [
+    "gradio",
+    "langchain-chroma",
+    "chromadb",
+    "langchain-community",
+    "python-dotenv",
+    "nlp",
+    "torch",
+    "torch-geometric",
+    "torchtext",
+    "torchaudio",
+    "torchvision",
+    "transformers",
+    "scikit-learn",
+    "pydantic-settings",
+    "jupyter",
+    "ipykernel",
+    "ipywidgets",
+    "sentencepiece",
+    "spacy",
+    "jupyterlab",
+    "pyspark==3.4.2",
+    "pandas",
+    "python-arango",
+    "pyyaml",
+    "pyarrow",
+    "mock",
+    "pymssql",
+    "matplotlib",
+    "seaborn",
+    "evidently",
+    "numpy",
+    "elasticsearch",
+    "ydata-profiling",
+    "openpyxl",
+    "PyPDF2",
+    "langchain",
+    "langchain-openai",
+    "openai",
+    "tiktoken",
+    "regex",
+    "wandb",
+    "weave",
+]
+
+[project.optional-dependencies]
+dev = [
+    "black",
+    "flake8",
+    "isort",
+    "pytest",
+    "ipykernel",
+    "pre-commit"
+]
+
+[tool.setuptools]
+packages = ["langchain_bookbot"]
