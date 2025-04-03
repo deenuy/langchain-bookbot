@@ -49,6 +49,8 @@ dependencies = [
     "regex",
     "wandb",
     "weave",
+    "kagglehub",
+    "ipywidgets"
 ]
 
 [project.optional-dependencies]
