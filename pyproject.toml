@@ -55,6 +55,10 @@ dependencies = [
 dev = [
     "black",
     "flake8",
+    "mypy",
+    "pylint",
+    "ruff",
+    "mypy",
     "isort",
     "pytest",
     "ipykernel",
